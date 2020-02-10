@@ -1,0 +1,1047 @@
+{
+	"id": "8d736e82-cbe5-deea-479a-6d8c8aa71af1",
+	"name": "DesafioEngesoft",
+	"description": "",
+	"order": [
+		"16fc917c-cd73-5eeb-726a-78fe4105bb86",
+		"dd00437b-ae91-7517-9c68-95467233cf4e"
+	],
+	"folders": [
+		{
+			"name": "Contatos",
+			"description": "Crud Contatos",
+			"collectionId": "8d736e82-cbe5-deea-479a-6d8c8aa71af1",
+			"order": [
+				"5b0c9ae2-bf7e-269a-7f71-a8ff2ad1c473",
+				"338d8079-0999-0f0e-509b-694a6381396b",
+				"96233732-4d78-99a3-585a-b978914736ca",
+				"5e08fe78-692f-c6bb-3905-716e275945e2",
+				"7662f548-82b6-1bd5-acbd-fc76f4c5e45b"
+			],
+			"owner": "5635061",
+			"folders_order": [],
+			"id": "3aa5d108-bda9-10db-fdb8-d2e63810af07"
+		}
+	],
+	"folders_order": [
+		"3aa5d108-bda9-10db-fdb8-d2e63810af07"
+	],
+	"timestamp": 0,
+	"owner": "5635061",
+	"public": false,
+	"requests": [
+		{
+			"id": "16fc917c-cd73-5eeb-726a-78fe4105bb86",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/user/register",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "name",
+					"value": "Wandre",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "email",
+					"value": "wandre1997@mail.com",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "password",
+					"value": "wandre9315",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1581283264362,
+			"name": "Cadastro ",
+			"description": "",
+			"collectionId": "8d736e82-cbe5-deea-479a-6d8c8aa71af1",
+			"responses": []
+		},
+		{
+			"id": "338d8079-0999-0f0e-509b-694a6381396b",
+			"headers": "",
+			"headerData": [],
+			"url": "http://127.0.0.1:8000/api/phones/41?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL3VzZXIvbG9naW4iLCJpYXQiOjE1ODEyODQwMzMsImV4cCI6MTU4MTI4NzYzMywibmJmIjoxNTgxMjg0MDMzLCJqdGkiOiJiS0dNWFZ6YWs1b25acE1CIiwic3ViIjo1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.GZ0bYioYugY4pZ1CdoW-fms2oRSaHkT1G2NMS7XOa1U",
+			"folder": "3aa5d108-bda9-10db-fdb8-d2e63810af07",
+			"queryParams": [
+				{
+					"key": "token",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL3VzZXIvbG9naW4iLCJpYXQiOjE1ODEyODQwMzMsImV4cCI6MTU4MTI4NzYzMywibmJmIjoxNTgxMjg0MDMzLCJqdGkiOiJiS0dNWFZ6YWs1b25acE1CIiwic3ViIjo1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.GZ0bYioYugY4pZ1CdoW-fms2oRSaHkT1G2NMS7XOa1U",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1581286418642,
+			"name": "Get Unico Contato",
+			"description": "",
+			"collectionId": "8d736e82-cbe5-deea-479a-6d8c8aa71af1",
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 201,
+						"name": "Created",
+						"detail": "The request has been fulfilled and resulted in a new resource being created."
+					},
+					"time": 143,
+					"headers": [
+						{
+							"name": "access-control-allow-headers",
+							"key": "access-control-allow-headers",
+							"value": "Origin, Content-Type, Content-Range, Content-Disposition, Content-Description, X-Auth-Token",
+							"description": "Used in response to a preflight request to indicate which HTTP headers can be used when making the actual request."
+						},
+						{
+							"name": "access-control-allow-methods",
+							"key": "access-control-allow-methods",
+							"value": "GET, PUT, POST, DELETE, OPTIONS",
+							"description": "Specifies the method or methods allowed when accessing the resource. This is used in response to a preflight request."
+						},
+						{
+							"name": "access-control-allow-origin",
+							"key": "access-control-allow-origin",
+							"value": "*",
+							"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+						},
+						{
+							"name": "cache-control",
+							"key": "cache-control",
+							"value": "no-cache, private",
+							"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+						},
+						{
+							"name": "connection",
+							"key": "connection",
+							"value": "close",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Sun, 09 Feb 2020 22:12:32 GMT, Sun, 09 Feb 2020 22:12:32 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "host",
+							"key": "host",
+							"value": "127.0.0.1:8000",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "PHP/7.2.19-0ubuntu0.18.04.2",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						},
+						{
+							"name": "x-ratelimit-limit",
+							"key": "x-ratelimit-limit",
+							"value": "60",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-ratelimit-remaining",
+							"key": "x-ratelimit-remaining",
+							"value": "58",
+							"description": "Custom header"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"success\":true,\"data\":{\"id\":41,\"name\":\"Carlos Ramos\",\"email\":\"carlos@mail.com\",\"telephone\":\"93151171\",\"company\":null,\"user_id\":5,\"created_at\":\"2020-02-09 21:28:27\",\"updated_at\":\"2020-02-09 21:34:20\"}}",
+					"language": "json",
+					"rawDataType": "text",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"name": "Get Unico Contato",
+					"id": "fb31eb08-cbdf-a7af-e0da-5a71eb38cf21",
+					"request": {
+						"url": "http://127.0.0.1:8000/api/phones/41?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL3VzZXIvbG9naW4iLCJpYXQiOjE1ODEyODQwMzMsImV4cCI6MTU4MTI4NzYzMywibmJmIjoxNTgxMjg0MDMzLCJqdGkiOiJiS0dNWFZ6YWs1b25acE1CIiwic3ViIjo1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.GZ0bYioYugY4pZ1CdoW-fms2oRSaHkT1G2NMS7XOa1U",
+						"pathVariables": {},
+						"pathVariableData": [],
+						"queryParams": [
+							{
+								"key": "token",
+								"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL3VzZXIvbG9naW4iLCJpYXQiOjE1ODEyODQwMzMsImV4cCI6MTU4MTI4NzYzMywibmJmIjoxNTgxMjg0MDMzLCJqdGkiOiJiS0dNWFZ6YWs1b25acE1CIiwic3ViIjo1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.GZ0bYioYugY4pZ1CdoW-fms2oRSaHkT1G2NMS7XOa1U",
+								"equals": true,
+								"description": "",
+								"enabled": true
+							}
+						],
+						"headerData": [],
+						"headers": "",
+						"data": null,
+						"method": "GET",
+						"dataMode": "params"
+					}
+				}
+			]
+		},
+		{
+			"id": "5b0c9ae2-bf7e-269a-7f71-a8ff2ad1c473",
+			"headers": "token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL3VzZXIvbG9naW4iLCJpYXQiOjE1ODEwMDM0MDcsImV4cCI6MTU4MTAwNzAwNywibmJmIjoxNTgxMDAzNDA3LCJqdGkiOiJZdWZJYjBEdHExMkNXbnlMIiwic3ViIjoxNSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.2fNO5JP75O0eGCkhpwZ2WkUKBrsSL8k1J1IF2NXJO0c\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "token",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL3VzZXIvbG9naW4iLCJpYXQiOjE1ODEwMDM0MDcsImV4cCI6MTU4MTAwNzAwNywibmJmIjoxNTgxMDAzNDA3LCJqdGkiOiJZdWZJYjBEdHExMkNXbnlMIiwic3ViIjoxNSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.2fNO5JP75O0eGCkhpwZ2WkUKBrsSL8k1J1IF2NXJO0c",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/phones?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL3VzZXIvbG9naW4iLCJpYXQiOjE1ODEyODMzODQsImV4cCI6MTU4MTI4Njk4NCwibmJmIjoxNTgxMjgzMzg0LCJqdGkiOiJiQ0tVZjlyV0M3S3c1M1Z5Iiwic3ViIjo1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.ifg_xNco64Ci9wBc-YQ_CrkaZUX5JzqB6Of6HP6eBws",
+			"folder": "3aa5d108-bda9-10db-fdb8-d2e63810af07",
+			"queryParams": [
+				{
+					"key": "token",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL3VzZXIvbG9naW4iLCJpYXQiOjE1ODEyODMzODQsImV4cCI6MTU4MTI4Njk4NCwibmJmIjoxNTgxMjgzMzg0LCJqdGkiOiJiQ0tVZjlyV0M3S3c1M1Z5Iiwic3ViIjo1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.ifg_xNco64Ci9wBc-YQ_CrkaZUX5JzqB6Of6HP6eBws",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [
+				{
+					"key": "name",
+					"value": "kkk",
+					"type": "text",
+					"enabled": false,
+					"description": ""
+				},
+				{
+					"key": "email",
+					"value": "ju4@mail.com",
+					"type": "text",
+					"enabled": false,
+					"description": ""
+				},
+				{
+					"key": "password",
+					"value": "wandre12",
+					"type": "text",
+					"enabled": false,
+					"description": ""
+				},
+				{
+					"key": "auth_token",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL3VzZXIvbG9naW4iLCJpYXQiOjE1ODEwMDM0MDcsImV4cCI6MTU4MTAwNzAwNywibmJmIjoxNTgxMDAzNDA3LCJqdGkiOiJZdWZJYjBEdHExMkNXbnlMIiwic3ViIjoxNSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.2fNO5JP75O0eGCkhpwZ2WkUKBrsSL8k1J1IF2NXJO0c",
+					"description": ""
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1581283559317,
+			"name": "Get All Contatos",
+			"description": "Solicita todos os contatos do usuario logado.",
+			"collectionId": "8d736e82-cbe5-deea-479a-6d8c8aa71af1",
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 201,
+						"name": "Created",
+						"detail": "The request has been fulfilled and resulted in a new resource being created."
+					},
+					"time": 42,
+					"headers": [
+						{
+							"name": "access-control-allow-headers",
+							"key": "access-control-allow-headers",
+							"value": "Origin, Content-Type, Content-Range, Content-Disposition, Content-Description, X-Auth-Token",
+							"description": "Used in response to a preflight request to indicate which HTTP headers can be used when making the actual request."
+						},
+						{
+							"name": "access-control-allow-methods",
+							"key": "access-control-allow-methods",
+							"value": "GET, PUT, POST, DELETE, OPTIONS",
+							"description": "Specifies the method or methods allowed when accessing the resource. This is used in response to a preflight request."
+						},
+						{
+							"name": "access-control-allow-origin",
+							"key": "access-control-allow-origin",
+							"value": "*",
+							"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+						},
+						{
+							"name": "cache-control",
+							"key": "cache-control",
+							"value": "no-cache, private",
+							"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+						},
+						{
+							"name": "connection",
+							"key": "connection",
+							"value": "close",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Sun, 09 Feb 2020 21:23:17 GMT, Sun, 09 Feb 2020 21:23:17 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "host",
+							"key": "host",
+							"value": "127.0.0.1:8000",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "PHP/7.2.19-0ubuntu0.18.04.2",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						},
+						{
+							"name": "x-ratelimit-limit",
+							"key": "x-ratelimit-limit",
+							"value": "60",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-ratelimit-remaining",
+							"key": "x-ratelimit-remaining",
+							"value": "57",
+							"description": "Custom header"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"success\":true,\"data\":[]}",
+					"language": "json",
+					"rawDataType": "text",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"name": "http://127.0.0.1:8000/api/phones?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL3VzZXIvbG9naW4iLCJpYXQiOjE1ODEyODMzODQsImV4cCI6MTU4MTI4Njk4NCwibmJmIjoxNTgxMjgzMzg0LCJqdGkiOiJiQ0tVZjlyV0M3S3c1M1Z5Iiwic3ViIjo1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.ifg_xNco64Ci9wBc-YQ_CrkaZUX5JzqB6Of6HP6eBws",
+					"id": "57a154ca-449a-19b7-2f86-85d653a6dd25",
+					"request": {
+						"url": "http://127.0.0.1:8000/api/phones?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL3VzZXIvbG9naW4iLCJpYXQiOjE1ODEyODMzODQsImV4cCI6MTU4MTI4Njk4NCwibmJmIjoxNTgxMjgzMzg0LCJqdGkiOiJiQ0tVZjlyV0M3S3c1M1Z5Iiwic3ViIjo1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.ifg_xNco64Ci9wBc-YQ_CrkaZUX5JzqB6Of6HP6eBws",
+						"pathVariables": {},
+						"pathVariableData": [],
+						"queryParams": [
+							{
+								"key": "token",
+								"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL3VzZXIvbG9naW4iLCJpYXQiOjE1ODEyODMzODQsImV4cCI6MTU4MTI4Njk4NCwibmJmIjoxNTgxMjgzMzg0LCJqdGkiOiJiQ0tVZjlyV0M3S3c1M1Z5Iiwic3ViIjo1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.ifg_xNco64Ci9wBc-YQ_CrkaZUX5JzqB6Of6HP6eBws",
+								"equals": true,
+								"description": "",
+								"enabled": true
+							}
+						],
+						"headerData": [
+							{
+								"key": "token",
+								"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL3VzZXIvbG9naW4iLCJpYXQiOjE1ODEwMDM0MDcsImV4cCI6MTU4MTAwNzAwNywibmJmIjoxNTgxMDAzNDA3LCJqdGkiOiJZdWZJYjBEdHExMkNXbnlMIiwic3ViIjoxNSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.2fNO5JP75O0eGCkhpwZ2WkUKBrsSL8k1J1IF2NXJO0c",
+								"description": "",
+								"enabled": true,
+								"warning": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": "",
+								"enabled": true,
+								"warning": ""
+							}
+						],
+						"headers": "token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL3VzZXIvbG9naW4iLCJpYXQiOjE1ODEwMDM0MDcsImV4cCI6MTU4MTAwNzAwNywibmJmIjoxNTgxMDAzNDA3LCJqdGkiOiJZdWZJYjBEdHExMkNXbnlMIiwic3ViIjoxNSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.2fNO5JP75O0eGCkhpwZ2WkUKBrsSL8k1J1IF2NXJO0c\nContent-Type: application/x-www-form-urlencoded\n",
+						"data": [
+							{
+								"key": "name",
+								"value": "kkk",
+								"type": "text",
+								"enabled": false,
+								"description": ""
+							},
+							{
+								"key": "email",
+								"value": "ju4@mail.com",
+								"type": "text",
+								"enabled": false,
+								"description": ""
+							},
+							{
+								"key": "password",
+								"value": "wandre12",
+								"type": "text",
+								"enabled": false,
+								"description": ""
+							},
+							{
+								"key": "auth_token",
+								"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL3VzZXIvbG9naW4iLCJpYXQiOjE1ODEwMDM0MDcsImV4cCI6MTU4MTAwNzAwNywibmJmIjoxNTgxMDAzNDA3LCJqdGkiOiJZdWZJYjBEdHExMkNXbnlMIiwic3ViIjoxNSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.2fNO5JP75O0eGCkhpwZ2WkUKBrsSL8k1J1IF2NXJO0c",
+								"description": ""
+							}
+						],
+						"method": "GET",
+						"dataMode": "urlencoded"
+					}
+				}
+			]
+		},
+		{
+			"id": "5e08fe78-692f-c6bb-3905-716e275945e2",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/api/phones/update/41",
+			"folder": "3aa5d108-bda9-10db-fdb8-d2e63810af07",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "token",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL3VzZXIvbG9naW4iLCJpYXQiOjE1ODEyODQwMzMsImV4cCI6MTU4MTI4NzYzMywibmJmIjoxNTgxMjg0MDMzLCJqdGkiOiJiS0dNWFZ6YWs1b25acE1CIiwic3ViIjo1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.GZ0bYioYugY4pZ1CdoW-fms2oRSaHkT1G2NMS7XOa1U",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "name",
+					"value": "Carlos Ramos",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "telephone",
+					"value": "93151171",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "email",
+					"value": "carlos@mail.com",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "company",
+					"value": "Padadia Fornos de Minas",
+					"type": "text",
+					"enabled": false,
+					"description": ""
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1581286538913,
+			"name": "Atualizar Contato",
+			"description": "",
+			"collectionId": "8d736e82-cbe5-deea-479a-6d8c8aa71af1",
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 201,
+						"name": "Created",
+						"detail": "The request has been fulfilled and resulted in a new resource being created."
+					},
+					"time": 95,
+					"headers": [
+						{
+							"name": "access-control-allow-headers",
+							"key": "access-control-allow-headers",
+							"value": "Origin, Content-Type, Content-Range, Content-Disposition, Content-Description, X-Auth-Token",
+							"description": "Used in response to a preflight request to indicate which HTTP headers can be used when making the actual request."
+						},
+						{
+							"name": "access-control-allow-methods",
+							"key": "access-control-allow-methods",
+							"value": "GET, PUT, POST, DELETE, OPTIONS",
+							"description": "Specifies the method or methods allowed when accessing the resource. This is used in response to a preflight request."
+						},
+						{
+							"name": "access-control-allow-origin",
+							"key": "access-control-allow-origin",
+							"value": "*",
+							"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+						},
+						{
+							"name": "cache-control",
+							"key": "cache-control",
+							"value": "no-cache, private",
+							"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+						},
+						{
+							"name": "connection",
+							"key": "connection",
+							"value": "close",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Sun, 09 Feb 2020 21:34:40 GMT, Sun, 09 Feb 2020 21:34:40 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "host",
+							"key": "host",
+							"value": "localhost:8000",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "PHP/7.2.19-0ubuntu0.18.04.2",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						},
+						{
+							"name": "x-ratelimit-limit",
+							"key": "x-ratelimit-limit",
+							"value": "60",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-ratelimit-remaining",
+							"key": "x-ratelimit-remaining",
+							"value": "58",
+							"description": "Custom header"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"success\":true,\"data\":{\"id\":41,\"name\":\"Carlos Ramos\",\"email\":\"carlos@mail.com\",\"telephone\":\"93151171\",\"company\":null,\"user_id\":5,\"created_at\":\"2020-02-09 21:28:27\",\"updated_at\":\"2020-02-09 21:34:20\"}}",
+					"language": "json",
+					"rawDataType": "text",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"name": "Atualizar Contato",
+					"id": "5d8a0df5-a7fb-14aa-918b-163745e606e9",
+					"request": {
+						"url": "http://localhost:8000/api/phones/update/41",
+						"pathVariables": {},
+						"pathVariableData": [],
+						"queryParams": [],
+						"headerData": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": "",
+								"enabled": true
+							}
+						],
+						"headers": "Content-Type: application/x-www-form-urlencoded\n",
+						"data": [
+							{
+								"key": "token",
+								"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL3VzZXIvbG9naW4iLCJpYXQiOjE1ODEyODQwMzMsImV4cCI6MTU4MTI4NzYzMywibmJmIjoxNTgxMjg0MDMzLCJqdGkiOiJiS0dNWFZ6YWs1b25acE1CIiwic3ViIjo1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.GZ0bYioYugY4pZ1CdoW-fms2oRSaHkT1G2NMS7XOa1U",
+								"type": "text",
+								"enabled": true,
+								"description": "Requerido"
+							},
+							{
+								"key": "name",
+								"value": "Carlos Ramos",
+								"type": "text",
+								"enabled": true,
+								"description": "Requerido"
+							},
+							{
+								"key": "telephone",
+								"value": "93151171",
+								"description": "Requerido",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "email",
+								"value": "carlos@mail.com",
+								"type": "text",
+								"enabled": true,
+								"description": "Requerido"
+							},
+							{
+								"key": "company",
+								"value": "Padadia Fornos de Minas",
+								"type": "text",
+								"enabled": false,
+								"description": "Opcional"
+							}
+						],
+						"method": "POST",
+						"dataMode": "urlencoded"
+					}
+				}
+			]
+		},
+		{
+			"id": "7662f548-82b6-1bd5-acbd-fc76f4c5e45b",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/api/phones/delete/41",
+			"folder": "3aa5d108-bda9-10db-fdb8-d2e63810af07",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1581286586217,
+			"name": "Delete Contato",
+			"description": "",
+			"collectionId": "8d736e82-cbe5-deea-479a-6d8c8aa71af1",
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 201,
+						"name": "Created",
+						"detail": "The request has been fulfilled and resulted in a new resource being created."
+					},
+					"time": 200,
+					"headers": [
+						{
+							"name": "access-control-allow-headers",
+							"key": "access-control-allow-headers",
+							"value": "Origin, Content-Type, Content-Range, Content-Disposition, Content-Description, X-Auth-Token",
+							"description": "Used in response to a preflight request to indicate which HTTP headers can be used when making the actual request."
+						},
+						{
+							"name": "access-control-allow-methods",
+							"key": "access-control-allow-methods",
+							"value": "GET, PUT, POST, DELETE, OPTIONS",
+							"description": "Specifies the method or methods allowed when accessing the resource. This is used in response to a preflight request."
+						},
+						{
+							"name": "access-control-allow-origin",
+							"key": "access-control-allow-origin",
+							"value": "*",
+							"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+						},
+						{
+							"name": "cache-control",
+							"key": "cache-control",
+							"value": "no-cache, private",
+							"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+						},
+						{
+							"name": "connection",
+							"key": "connection",
+							"value": "close",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Sun, 09 Feb 2020 22:15:49 GMT, Sun, 09 Feb 2020 22:15:49 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "host",
+							"key": "host",
+							"value": "localhost:8000",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "PHP/7.2.19-0ubuntu0.18.04.2",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						},
+						{
+							"name": "x-ratelimit-limit",
+							"key": "x-ratelimit-limit",
+							"value": "60",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-ratelimit-remaining",
+							"key": "x-ratelimit-remaining",
+							"value": "59",
+							"description": "Custom header"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"success\":true,\"data\":[]}",
+					"language": "json",
+					"rawDataType": "text",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"name": "Delete Contato",
+					"id": "44a3523c-f06d-1107-91bc-377caede876c",
+					"request": {
+						"url": "http://localhost:8000/api/phones/delete/41",
+						"pathVariables": {},
+						"pathVariableData": [],
+						"queryParams": [],
+						"headerData": [],
+						"headers": "",
+						"data": [
+							{
+								"key": "token",
+								"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL3VzZXIvbG9naW4iLCJpYXQiOjE1ODEyODQwMzMsImV4cCI6MTU4MTI4NzYzMywibmJmIjoxNTgxMjg0MDMzLCJqdGkiOiJiS0dNWFZ6YWs1b25acE1CIiwic3ViIjo1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.GZ0bYioYugY4pZ1CdoW-fms2oRSaHkT1G2NMS7XOa1U",
+								"description": "",
+								"type": "text",
+								"enabled": true
+							}
+						],
+						"method": "POST",
+						"dataMode": "params"
+					}
+				}
+			]
+		},
+		{
+			"id": "96233732-4d78-99a3-585a-b978914736ca",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/api/phones/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "8d736e82-cbe5-deea-479a-6d8c8aa71af1",
+			"data": [
+				{
+					"key": "token",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL3VzZXIvbG9naW4iLCJpYXQiOjE1ODEyODM2MzUsImV4cCI6MTU4MTI4NzIzNSwibmJmIjoxNTgxMjgzNjM1LCJqdGkiOiJycGlHYU1CSVMzUTZIQU9VIiwic3ViIjo1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.EUloKiLeaYYnaSngDjLmKMYO1hHo7x4NTn_dUnY6Jk0",
+					"description": "Requerido",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "Calos",
+					"description": "Requerido",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "carlos@mail.com",
+					"description": "Requerido",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "telephone",
+					"value": "93151171",
+					"description": "Requerido",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "company",
+					"value": "Paradia Fornos de Minas",
+					"description": "Opcional",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "Cadastro Contato",
+			"description": "Cadastra um contato",
+			"descriptionFormat": "html",
+			"time": 1581283739192,
+			"version": 2,
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 201,
+						"name": "Created",
+						"detail": "The request has been fulfilled and resulted in a new resource being created."
+					},
+					"time": 211,
+					"headers": [
+						{
+							"name": "access-control-allow-headers",
+							"key": "access-control-allow-headers",
+							"value": "Origin, Content-Type, Content-Range, Content-Disposition, Content-Description, X-Auth-Token",
+							"description": "Used in response to a preflight request to indicate which HTTP headers can be used when making the actual request."
+						},
+						{
+							"name": "access-control-allow-methods",
+							"key": "access-control-allow-methods",
+							"value": "GET, PUT, POST, DELETE, OPTIONS",
+							"description": "Specifies the method or methods allowed when accessing the resource. This is used in response to a preflight request."
+						},
+						{
+							"name": "access-control-allow-origin",
+							"key": "access-control-allow-origin",
+							"value": "*",
+							"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+						},
+						{
+							"name": "cache-control",
+							"key": "cache-control",
+							"value": "no-cache, private",
+							"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+						},
+						{
+							"name": "connection",
+							"key": "connection",
+							"value": "close",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Sun, 09 Feb 2020 21:28:28 GMT, Sun, 09 Feb 2020 21:28:28 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "host",
+							"key": "host",
+							"value": "localhost:8000",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "PHP/7.2.19-0ubuntu0.18.04.2",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						},
+						{
+							"name": "x-ratelimit-limit",
+							"key": "x-ratelimit-limit",
+							"value": "60",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-ratelimit-remaining",
+							"key": "x-ratelimit-remaining",
+							"value": "59",
+							"description": "Custom header"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"success\":true,\"data\":{\"name\":\"Calos\",\"email\":\"carlos@mail.com\",\"telephone\":\"93151171\",\"company\":\"Paradia Fornos de Minas\",\"user_id\":5,\"updated_at\":\"2020-02-09 21:28:27\",\"created_at\":\"2020-02-09 21:28:27\",\"id\":41}}",
+					"language": "json",
+					"rawDataType": "text",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"name": "Cadastro Contato",
+					"id": "66d95bd2-cf93-ab2b-39f4-87d712654817",
+					"request": {
+						"url": "http://localhost:8000/api/phones/",
+						"pathVariables": {},
+						"pathVariableData": [],
+						"queryParams": [],
+						"headerData": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": "",
+								"enabled": true
+							}
+						],
+						"headers": "Content-Type: application/x-www-form-urlencoded\n",
+						"data": [
+							{
+								"key": "token",
+								"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL3VzZXIvbG9naW4iLCJpYXQiOjE1ODEyODM2MzUsImV4cCI6MTU4MTI4NzIzNSwibmJmIjoxNTgxMjgzNjM1LCJqdGkiOiJycGlHYU1CSVMzUTZIQU9VIiwic3ViIjo1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.EUloKiLeaYYnaSngDjLmKMYO1hHo7x4NTn_dUnY6Jk0",
+								"description": "Requerido",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "name",
+								"value": "Calos",
+								"description": "Requerido",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "email",
+								"value": "carlos@mail.com",
+								"description": "Requerido",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "telephone",
+								"value": "93151171",
+								"description": "Requerido",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "company",
+								"value": "Paradia Fornos de Minas",
+								"description": "Opcional",
+								"type": "text",
+								"enabled": true
+							}
+						],
+						"method": "POST",
+						"dataMode": "urlencoded"
+					}
+				}
+			],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "3aa5d108-bda9-10db-fdb8-d2e63810af07"
+		},
+		{
+			"id": "dd00437b-ae91-7517-9c68-95467233cf4e",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/user/login",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "email",
+					"value": "wandre1997@mail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "wandre9315",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1581283366668,
+			"name": "Login",
+			"description": "",
+			"collectionId": "8d736e82-cbe5-deea-479a-6d8c8aa71af1",
+			"responses": []
+		}
+	]
+}
